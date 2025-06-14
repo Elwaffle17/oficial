@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu css</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="main.js">
 </head>
 <body>
     
@@ -76,57 +76,156 @@
 
 
 
-     <h2> MEJOR CALIFICACION </h2>
+    <div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1 class="h_titulo1">¿Que estas buscando?</h1>
+				<p>Elwaffle</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Naturaleza</a>
+				<a href="#">Ciudades</a>
+				<a href="#">Personas</a>
+				<a href="#">Animales</a>
+			</div>
+		</header>
 
-    <div class="con2t">
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades autos carros calles"
+				 data-descripcion="1.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/ciudad1.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
 
-      <div class="con2">
-        <a href="">
-          <img src="img/Bedrock_Edition_Google_Play_icon_1 (1).webp" alt="" class="produc2">
-          <h3>MINECRAFT</h3>
-          <p>$5.99</p>
-        </a>
-      </div>
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="2.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/persona1.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
 
-      <div class="con2">
-        <a href="">
-          <img src="img/4d1b37eb5bc4e9e64c5b840330d3c494a6f441b8db889b8bf957436e9793056e_200 (1).webp" alt="" class="produc2">
-          <h3>GESHIN IMPACT</h3>
-          <p>Gratis</p>
-        </a>
-      </div>
+			<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes montañas mar playas"
+				 data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/paisaje1.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
 
-      <div class="con2">
-        <a href="">
-          <img src="img/4d1b37eb5bc4e9e64c5b840330d3c494a6f441b8db889b8bf957436e9793056e_200 (1).webp" alt="" class="produc2">
-          <h3>GESHIN IMPACT</h3>
-          <p>Gratis</p>
-        </a>
-      </div>
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animales leones"
+				 data-descripcion="4.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/animal1.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
 
-      <div class="con2">
-        <a href="">
-          <img src="img/4d1b37eb5bc4e9e64c5b840330d3c494a6f441b8db889b8bf957436e9793056e_200 (1).webp" alt="" class="produc2">
-          <h3>GESHIN IMPACT</h3>
-          <p>Gratis</p>
-        </a>
-      </div>
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animales pandas"
+				 data-descripcion="5.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/animal2.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
 
-      <div class="con2">
-        <a href="">
-          <img src="img/4d1b37eb5bc4e9e64c5b840330d3c494a6f441b8db889b8bf957436e9793056e_200 (1).webp" alt="" class="produc2">
-          <h3>GESHIN IMPACT</h3>
-          <p>Gratis</p>
-        </a>
-      </div>
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="6.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/persona2.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes montañas niebla"
+				 data-descripcion="7.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/paisaje2.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
+
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades paisajes carreteras"
+				 data-descripcion="8.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/ciudad2.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza hojas plantas"
+				 data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/naturaleza1.png" alt="" class="imgcatalogo">
+          <h3>Producto 1</h3>
+          <p>valor</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+
+
+
+
+
 
       
 
     </div>
-
-
-
-    
 
     <footer class="footer">
         <ul class="social-icon">
