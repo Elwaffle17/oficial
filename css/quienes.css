@@ -17,8 +17,7 @@ body {
     padding: 5%;
     border: 1px solid;
     border-radius: 10px;
-	border-color:#999999;
-
+    border-color:#999999;
  }
 
 @media (width > 800px) { 
