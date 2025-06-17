@@ -464,7 +464,14 @@ a {
 }
 
 
+@media screen and (min-width: 800px) {
 
+  .overlay img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+}
 
 
 
