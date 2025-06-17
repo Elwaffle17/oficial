@@ -472,7 +472,7 @@ a {
 @media screen and (max-width: 600px) {
 
   .overlay img {
-	width: 300px;
+  width: 300px;
   border-radius: 15px;
 }
 
@@ -481,7 +481,7 @@ a {
 @media screen and (max-width: 350px) {
 
   .overlay img {
-	width: 250px;
+  width: 250px;
   border-radius: 15px;
 }
 
@@ -490,7 +490,7 @@ a {
 @media screen and (max-width: 300px) {
 
   .overlay img {
-	width: 200px;
+  width: 200px;
   border-radius: 15px;
 }
 
@@ -499,7 +499,7 @@ a {
 @media screen and (max-width: 250px) {
 
   .overlay img {
-	width: 150px;
+  width: 150px;
   border-radius: 15px;
 }
 
