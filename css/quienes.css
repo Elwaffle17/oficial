@@ -17,7 +17,8 @@ body {
     padding: 5%;
     border: 1px solid;
     border-radius: 10px;
-    border-color:#999999;
+	border-color:#999999;
+
  }
 
 @media (width > 800px) { 
@@ -27,12 +28,6 @@ body {
 }
    
 }
-
-
-
-
-
-
 
 
  .h_1 { 
@@ -46,6 +41,9 @@ body {
 
 .nav1 { 
     background-color: #101010;
+    position: sticky;
+    top: 0;
+    z-index: 100;
  }
 
  .nav__container {
@@ -121,7 +119,16 @@ body {
 
 .nav__link { 
     color: white;
+    padding: 15px 20PX;
+    border-radius: 15px;
     text-decoration: none;
+    transition: 500ms ease;
+
+}
+
+.nav__link:hover { 
+  background-color: #99999926;
+    
 }
 
 @media (width > 764px) { 
@@ -142,7 +149,23 @@ body {
         
         font-size: 120%;
      }
+     
+
+     .nav__link { 
+      color: white;
+      padding: 15px;
+      border-radius: 15px;
+      text-decoration: none;
+      transition: 1s ease;
+
 }
+
+     .nav__link:hover { 
+     background-color: #99999926;
+    
+}
+}
+
 
 
 
